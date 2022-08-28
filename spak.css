@@ -1,8 +1,42 @@
 html{
-    font-size: 22px;
+    font-size: 15px;
 }
 
 body{
     background-color:white;
-    color:black;
+    color:#66615b;
+    text-align: center;
+    font-weight: 500;
+}
+p{
+    font-size: 24px;
+    font-weight: 500;
+}
+.img-fluid{
+    max-width: 100%;
+    height:auto;
+}
+img{
+    vertical-align: middle;
+    border-style: none;
+}
+table{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    box-sizing: border-box;
+    justify-content: center;
+}
+table, th, td{
+    border: 0.5px solid whitesmoke;
+    text-align: left;
+    border-collapse:collapse;
+}
+thead{
+    color:#66615b;
+}
+tr:nth-child(even){
+    background-color:#cfc7bc;
 }
