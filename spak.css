@@ -16,9 +16,33 @@ p{
     max-width: 100%;
     height:auto;
 }
-img{
-    vertical-align: middle;
-    border-style: none;
+.navbar ul{
+    list-style-type: none;
+    width: 90%;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: white;
+}
+.navbar li{
+    float: left;
+}
+.navbar li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #cfc7bc;
+    padding: 20px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.navbar li a:hover{
+    background-color: #66615b;
+}
+.navbar img{
+    float: left;
 }
 table{
     padding-left: 15px;
